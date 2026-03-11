@@ -1,0 +1,51 @@
+{
+  "name": "seo-crawler",
+  "version": "1.0.0",
+  "description": "Comprehensive SEO crawler with Core Web Vitals analysis using Playwright",
+  "main": "dist/index.js",
+  "bin": {
+    "seo-crawler": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint src/**/*.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "seo",
+    "crawler",
+    "core-web-vitals",
+    "lighthouse",
+    "playwright",
+    "sitemap"
+  ],
+  "author": "pfgope",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pfgope/seo-crawler.git"
+  },
+  "homepage": "https://github.com/pfgope/seo-crawler#readme",
+  "bugs": {
+    "url": "https://github.com/pfgope/seo-crawler/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "dotenv": "^17.2.3",
+    "fast-xml-parser": "^4.3.2",
+    "ora": "^5.4.1",
+    "p-limit": "^3.1.0",
+    "playwright": "^1.40.1",
+    "text-readability": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
