@@ -326,7 +326,7 @@ export interface CrawlerConfig {
 export const DEFAULT_CONFIG: Partial<CrawlerConfig> = {
   concurrency: 3,
   timeout: 30000,
-  userAgent: 'SEO-Crawler/1.0 (https://github.com/pfgope/seo-crawler)',
+  userAgent: 'SEO-Crawler/1.0 (https://github.com/Pfgoriaux/seo-crawler)',
   formats: ['json', 'html'],
   screenshotsEnabled: false,
   checkBrokenLinks: true,

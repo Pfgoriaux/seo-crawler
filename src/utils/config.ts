@@ -58,7 +58,7 @@ export function loadConfig(): EnvConfig {
     crawlerConcurrency: parseInt(process.env.CRAWLER_CONCURRENCY, 3),
     crawlerTimeout: parseInt(process.env.CRAWLER_TIMEOUT, 30000),
     crawlerOutputDir: process.env.CRAWLER_OUTPUT_DIR || './seo-reports',
-    crawlerUserAgent: process.env.CRAWLER_USER_AGENT || 'SEO-Crawler/1.0 (https://github.com/pfgope/seo-crawler)',
+    crawlerUserAgent: process.env.CRAWLER_USER_AGENT || 'SEO-Crawler/1.0 (https://github.com/Pfgoriaux/seo-crawler)',
 
     // AI Agent settings
     anthropicApiKey: process.env.ANTHROPIC_API_KEY || undefined,

@@ -21,15 +21,15 @@
     "playwright",
     "sitemap"
   ],
-  "author": "pfgope",
+  "author": "Pfgoriaux",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pfgope/seo-crawler.git"
+    "url": "https://github.com/Pfgoriaux/seo-crawler.git"
   },
-  "homepage": "https://github.com/pfgope/seo-crawler#readme",
+  "homepage": "https://github.com/Pfgoriaux/seo-crawler#readme",
   "bugs": {
-    "url": "https://github.com/pfgope/seo-crawler/issues"
+    "url": "https://github.com/Pfgoriaux/seo-crawler/issues"
   },
   "dependencies": {
     "chalk": "^4.1.2",

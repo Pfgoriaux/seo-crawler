@@ -25,7 +25,7 @@ A comprehensive CLI tool that analyzes websites for SEO health. Crawls sites fro
 ## Installation
 
 ```bash
-git clone https://github.com/pfgope/seo-crawler.git
+git clone https://github.com/Pfgoriaux/seo-crawler.git
 cd seo-crawler
 npm install
 npx playwright install chromium
